@@ -1,29 +1,79 @@
-main{
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-    width: 900px;
-    height: 100vh;
-    background-color: beige;
-    margin: 20px auto;
-    overflow: hidden;
-    display: flex;
+body {
+    display: grid;
+    grid-template-areas:
+                        'header header header'
+                        'main main main'
+                        'main main main'
+                        'footer footer footer';
+    min-height: 100vh;
+}   
 
-
-    flex-flow: row wrap;
-    border: 2px 4px 6px 8px;
-    border-style: dashed;
-    border-color: aqua;
-    padding: 20px;
+header {
+    grid-area: header;
+    background-color: #FF9505;
+    height: 100px;
 
 }
 
-section{
+main {
+    grid-area: main;
+    background-color: #016FB9;
+    grid-template-rows: 100% 100% 100%;
+}
+
+#jumbotron {
+
+    background-color: #EC4E20;
+    height: 100px;
+}
+
+#blog {
+
+    background-color: #353531;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+
+#blog article {
 
     width: 200px;
     height: 200px;
-    border-radius: 10px;
-    border: 2px solid black;
-    text-align: center;
-    font-size: 40px;
-    color: white;
-    background-color: grey;
+    background-color: black;
+    margin: 0 auto;
+
+}
+
+
+#adicionales {
+
+    background-color: rgb(33, 36, 219);
+    height: 100px;
+
+    
+
+}
+
+footer {
+    grid-area: footer;
+    background-color: rgb(20, 6, 77);
+}
+
+@media screen and (max-width: 420px) {
+    #blog {
+
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+        
+    }
+    
 }
