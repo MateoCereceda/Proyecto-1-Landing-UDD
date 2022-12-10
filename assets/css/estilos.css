@@ -1,0 +1,29 @@
+main{
+
+    width: 900px;
+    height: 100vh;
+    background-color: beige;
+    margin: 20px auto;
+    overflow: hidden;
+    display: flex;
+
+
+    flex-flow: row wrap;
+    border: 2px 4px 6px 8px;
+    border-style: dashed;
+    border-color: aqua;
+    padding: 20px;
+
+}
+
+section{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    background-color: grey;
+}
