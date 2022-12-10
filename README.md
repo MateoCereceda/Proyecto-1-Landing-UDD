@@ -1,16 +1,22 @@
-![Banner](./imagenes/banner.png)
 
 # PROYECTO 1: Landing de Negocio
 
 ## **ÍNDICE**
 
-* [1. Intro](#1-intro)
-* [2. Demo](#2-demo)
-* [3. ¿Qué construirás?](#3-qu%C3%A9-construir%C3%A1s)
-* [4. Objetivos de Aprendizaje](#4-objetivos-de-aprendizaje)
-* [5. Requisitos](#5-requisitos-y-entregables)
-* [6. Criterios de evaluación](#6-criterios-de-evaluaci%C3%B3n)
-* [7. Entregas](#7-entregas)
+- [PROYECTO 1: Landing de Negocio](#proyecto-1-landing-de-negocio)
+  - [**ÍNDICE**](#índice)
+  - [1. Intro](#1-intro)
+  - [2. Demo](#2-demo)
+  - [3. ¿Qué construirás?](#3-qué-construirás)
+  - [4. Objetivos de aprendizaje](#4-objetivos-de-aprendizaje)
+  - [5. Requisitos y entregables](#5-requisitos-y-entregables)
+    - [GENERAL](#general)
+    - [UI](#ui)
+    - [CONTROL DE VERSIONES](#control-de-versiones)
+    - [DESPLIEGUE](#despliegue)
+    - [ENTREGA A TIEMPO](#entrega-a-tiempo)
+  - [6. Criterios de evaluación](#6-criterios-de-evaluación)
+  - [7. Entregas](#7-entregas)
 
 ****
 
@@ -36,7 +42,6 @@ La idea es inspirarte con esta demostración de proyecto.
 
 **No construirás el mismo**, sin embargo, puedes examinar cómo fue construido para establecer tu estrategia.
 
-![imagen]("./../demo/demo.png)
 
 
 ****
@@ -62,7 +67,6 @@ Se te pide que sea una sola página que permita establecer:
   - **e. Footer**
     Sección que incluye todas las áreas del sitio, incluyendo redes sociales.
 
-![imagen]("./../demo/layout.png)
 
 ****
 
