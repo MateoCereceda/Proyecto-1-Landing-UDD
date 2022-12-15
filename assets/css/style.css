@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&family=Rubik+80s+Fade&display=swap');
+
+/* Parametros generales */
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+
+body{
+    
+    font-family: 'Rubik 80s Fade', cursive;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: whitesmoke;
+}
+
+h1 {
+
+    font-weight: 700;
+    font-size: 3.6rem;
+    margin: 1.6rem 0;
+}
+
+h2{ 
+    font-weight: 700;
+    font-size: 2.4rem;
+    margin: 1.6rem 0;
+}
+
+p{
+
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin: 1.6rem 0;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.row{
+
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+}
+
+section{
+
+    padding: 100px 0;
+}
+
+/* Sección Header */
+
+header{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)),url('../images/web.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+}
+
+.logo h1{
+    font-family:'Rubik 80s Fade';
+    font-size: 5rem;
+    color: rgb(236, 236, 236);
+    margin: 0;
+}
+
+nav{
+    
+    padding: 2% 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 2.5rem;
+}
+
+nav ul li a:hover{
+    color: #0b3866;
+    transition: .5% ease-in-out;
+}
+
+.contenido-header{
+    width: 50%;
+    position: relative;
+    top: 16%;
+    left: 8%;
+}
+
+form{
+    margin: 2.4rem 0;
+}
+
+input{
+    font-size: 1.8rem;
+}
+
+input[type=text],
+input[type=email]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 1.2rem 0;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+input[type=button]{
+    width: 50%;
+    background-color: #45caff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+input::placeholder{
+    font-size: 1.3rem;
+    color: #ccc;
+}
+
+/* Sección About*/
+
+.jumbotron-left,
+.jumbotron-middle,
+.jumbotron-right{
+    flex-basis: 30%;
+    padding: 1.6rem;
+}
+
+.btn{
+
+    background-color: #45caff;
+    color: white;
+    padding: 8px 16px;
+    display: inline-block;
+    margin: 2rem 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/* Sección Móvil*/
+@media only screen and (max-width:617px) {
+    nav{
+        flex-direction: column;
+    }
+}
