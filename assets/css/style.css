@@ -237,17 +237,47 @@ input::placeholder{
     font-size: 1.3rem;
     color: #ccc;
 }   
+
+
+
+/* Sección Adicionales*/
+
+.adicionales{
+    height: fit-content;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.adicionales article{
+    font-size: 30%;
+    width: 300px;
+    height: 300px;
+    border-radius: px;
+    border: 2px;
+    text-align: center;
+    font-size: 20px;
+    color: rgba(175, 174, 174, 0.484);
+    margin: 0 auto;
+}
+
+.adicionales article h2,p{
+    color: rgba(175, 174, 174, 0.484);
+}   
+
 /* Sección Footer*/
 
 footer {
-    height: 4vh;
-    background-color: whitesmoke;
+    height: fit-content;
+    grid-area: footer;
+    background-color: white ;
 }
 
 footer p{
     color: #62686e;
 }
-
 
 /* Sección Móvil*/
 @media only screen and (max-width:617px) {
