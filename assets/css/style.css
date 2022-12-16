@@ -11,8 +11,6 @@
 
 
 body{
-    
-    font-family: 'Rubik 80s Fade', cursive;
     font-family: 'Hind Siliguri', sans-serif;
 }
 
@@ -65,8 +63,8 @@ section{
 /* Sección Header */
 
 header{
-    height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)),url('../images/web.jpg');
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.4)),url('../images/web.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -81,13 +79,13 @@ header{
 }
 
 nav{
-    
     padding: 2% 8%;
     display: flex;
     justify-content: space-between;
 }
 
 nav ul{
+    margin: 1.5rem;
     list-style-type: none;
 }
 
@@ -101,15 +99,108 @@ nav ul li a:hover{
     transition: .5% ease-in-out;
 }
 
-.contenido-header{
-    width: 50%;
-    position: relative;
-    top: 16%;
-    left: 8%;
+.texto-header {
+    text-align: left;
+    margin: 80px;
 }
 
+.texto-header p{
+    font-style: oblique;
+}
+
+.imagen-header img{
+    margin-right: 12rem;
+    float: right;
+    display: block;
+    border-radius: 8px;
+    max-width: 27%;
+}
+
+img:hover {
+opacity: 0.5;
+transition: ease-in-out;
+}
+
+/* Sección Blog*/
+
+.titulos {
+    height: 35vh;
+    background-color: whitesmoke;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.titulos h1,h2{
+    text-align: center;
+    margin: auto;
+}
+
+.titulos p{
+    text-align: center;
+    margin: auto;
+    color: dimgrey;
+}
+
+
+.blog{
+
+    height: 65vh;
+    background-color:whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.blog article {
+
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px;
+    text-align: center; 
+    font-size: 40px;
+    margin: auto 6.5rem;
+
+}
+
+.blog img{
+    border-radius: 8px;
+    width: 350px;
+    height: 350px;
+}
+
+
+
+/* Sección Jumbotron*/
+
+.jumbotron{
+    height: 75vh;
+    background-color:whitesmoke;
+    gap: 10px;
+    padding: 10px;
+}
+
+.jumbotron img{
+    margin-left: 7rem;
+    float: left;
+    display: flex;
+    border-radius: 8px;
+    max-width: 45%; 
+}
+
+
 form{
-    margin: 2.4rem 0;
+    align-items:center ;
+    float: center;
+    margin: 1px 0;
+    margin-left: 80rem;
+}
+
+form h1,p{
+    text-align: center;
+    margin: 2rem;
 }
 
 input{
@@ -120,7 +211,7 @@ input[type=text],
 input[type=email]{
     width: 50%;
     padding: 12px 20px;
-    margin: 1.2rem 0;
+    margin: 1.2rem 16rem;
     display: block;
     border: 1px solid #ccc;
 }
@@ -130,39 +221,33 @@ input[type=button]{
     background-color: #45caff;
     color: white;
     padding: 14px 20px;
-    margin: 8px 0;
+    margin: 8px 16rem;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    text-transform: uppercase;
+    text-transform: uppercase;  
+}
+
+input[type=button]:hover{
+    opacity: 0.8;
+    transition: ease-in-out;
 }
 
 input::placeholder{
     font-size: 1.3rem;
     color: #ccc;
+}   
+/* Sección Footer*/
+
+footer {
+    height: 4vh;
+    background-color: whitesmoke;
 }
 
-/* Sección About*/
-
-.jumbotron-left,
-.jumbotron-middle,
-.jumbotron-right{
-    flex-basis: 30%;
-    padding: 1.6rem;
+footer p{
+    color: #62686e;
 }
 
-.btn{
-
-    background-color: #45caff;
-    color: white;
-    padding: 8px 16px;
-    display: inline-block;
-    margin: 2rem 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    text-transform: uppercase;
-}
 
 /* Sección Móvil*/
 @media only screen and (max-width:617px) {
