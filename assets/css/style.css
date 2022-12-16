@@ -100,8 +100,9 @@ nav ul li a:hover{
 }
 
 .texto-header {
+    font-size: 200px;
     text-align: left;
-    margin: 80px;
+    margin: 125px 80px;
 }
 
 .texto-header p{
@@ -266,6 +267,11 @@ input::placeholder{
 .adicionales article h2,p{
     color: rgba(3, 2, 2, 0.484);
 }   
+
+.adicionales article a:hover{
+        opacity: 0.8;
+        transition: ease-in-out;
+}
 
 /* Sección Footer*/
 
